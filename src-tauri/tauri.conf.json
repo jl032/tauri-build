@@ -1,11 +1,11 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "freefy",
+  "productName": "Zlib",
   "version": "0.1.0",
-  "identifier": "com.jonat.freefy",
+  "identifier": "com.jonat.zlib",
   "build": {
     "beforeDevCommand": "pnpm dev",
-    "devUrl": "https://freefy.app",
+    "devUrl": "https://z-library.sk/",
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
@@ -13,10 +13,10 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "Freefy",
-        "url": "https://freefy.app",
-        "width": 1100,
-        "height": 750
+        "title": "Zlib",
+        "url": "https://z-library.sk/",
+        "width": 1200,
+        "height": 800
       }
     ],
     "security": {
