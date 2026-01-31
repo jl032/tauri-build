@@ -1,11 +1,11 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Burrito",
+  "productName": "Emerald",
   "version": "0.1.0",
-  "identifier": "com.jonat.burrito",
+  "identifier": "com.jonat.emerald",
   "build": {
     "beforeDevCommand": "pnpm dev",
-    "devUrl": "https://google.com",
+    "devUrl": "https://chatgpt.com",
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
@@ -13,8 +13,8 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "Burrito",
-        "url": "https://google.com",
+        "title": "Emerald",
+        "url": "https://chatgpt.com",
         "width": 1200,
         "height": 800
       }
