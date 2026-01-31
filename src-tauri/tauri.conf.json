@@ -1,11 +1,11 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Zlib",
+  "productName": "Burrito",
   "version": "0.1.0",
-  "identifier": "com.jonat.zlib",
+  "identifier": "com.jonat.burrito",
   "build": {
     "beforeDevCommand": "pnpm dev",
-    "devUrl": "https://z-library.sk/",
+    "devUrl": "https://google.com",
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
@@ -13,8 +13,8 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "Zlib",
-        "url": "https://z-library.sk/",
+        "title": "Burrito",
+        "url": "https://google.com",
         "width": 1200,
         "height": 800
       }
