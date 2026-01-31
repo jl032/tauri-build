@@ -1,11 +1,11 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Amethyst",
+  "productName": "Opal",
   "version": "0.1.0",
-  "identifier": "com.jonat.amethyst",
+  "identifier": "com.jonat.opal",
   "build": {
     "beforeDevCommand": "pnpm dev",
-    "devUrl": "https://gemini.google.com",
+    "devUrl": "https://claude.ai",
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
@@ -13,8 +13,8 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "Amethyst",
-        "url": "https://gemini.google.com",
+        "title": "Opal",
+        "url": "https://claude.ai",
         "width": 1200,
         "height": 800
       }
