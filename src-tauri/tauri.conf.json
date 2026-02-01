@@ -1,11 +1,11 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Burrito",
+  "productName": "Amethyst",
   "version": "0.1.0",
-  "identifier": "com.jonat.burrito",
+  "identifier": "com.jonat.amethyst",
   "build": {
     "beforeDevCommand": "pnpm dev",
-    "devUrl": "https://google.com",
+    "devUrl": "https://gemini.google.com",
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
@@ -13,8 +13,8 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "Burrito",
-        "url": "https://google.com",
+        "title": "Amethyst",
+        "url": "https://gemini.google.com",
         "width": 1200,
         "height": 800
       }
