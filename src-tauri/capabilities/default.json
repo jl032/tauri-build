@@ -6,12 +6,6 @@
   "permissions": [
     "core:default",
     "core:webview:allow-create-webview",
-    {
-      "identifier": "opener:allow-open-url",
-      "allow": [
-        { "url": "https://*" },
-        { "url": "http://*" }
-      ]
-    }
+    "opener:allow-open-url"
   ]
 }
