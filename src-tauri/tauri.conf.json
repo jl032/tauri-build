@@ -3,6 +3,11 @@
   "productName": "Sapphire",
   "version": "0.1.0",
   "identifier": "com.jonat.sapphire",
+  "permissions": [
+    "core:default", 
+    "opener:allow-open-url",
+    "opener:allow-open-external"
+  ]
   "build": {
     "beforeDevCommand": "pnpm dev",
     "devUrl": "https://perplexity.ai",
