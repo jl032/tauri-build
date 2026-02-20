@@ -1,11 +1,11 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Opal",
+  "productName": "Crimsyn",
   "version": "0.1.0",
-  "identifier": "com.jonat.opal",
+  "identifier": "com.jonat.crimsyn",
   "build": {
     "beforeDevCommand": "pnpm dev",
-    "devUrl": "https://claude.ai",
+    "devUrl": "https://youtube.com",
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
@@ -13,8 +13,8 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "Opal",
-        "url": "https://claude.ai",
+        "title": "Crimsyn",
+        "url": "https://youtube.com",
         "width": 1200,
         "height": 800
       }
